@@ -1,24 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lawn Care Service Inquiry</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Long View Lawn Care</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <h1>Lawn Care Service Inquiry</h1>
-    <form action="https://formspree.io/f/mzzplbbw" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="address">Address:</label>
-        <input type="text" id="address" name="address" required>
-        
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required>
-        
-        <button type="submit">Submit</button>
-    </form>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-icon">🌿</span>
+        <span class="logo-text">Long View <strong>Lawn Care</strong></span>
+      </div>
+      <a href="#contact" class="nav-cta">Get a Free Quote</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-badge">Professional Lawn Care Services</span>
+      <h1>Your Lawn Deserves<br />the Best Care</h1>
+      <p>Reliable, affordable, and professional lawn care services for your home or business. We take pride in every yard we touch.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        <a href="#services" class="btn btn-outline">Our Services</a>
+      </div>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stats-inner">
+      <div class="stat">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Satisfaction Guarantee</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">5★</span>
+        <span class="stat-label">Average Rating</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2>Our Services</h2>
+        <p>Everything your lawn needs, handled by professionals.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">✂️</div>
+          <h3>Lawn Mowing</h3>
+          <p>Regular mowing schedules to keep your grass perfectly trimmed and healthy all season long.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌱</div>
+          <h3>Fertilization</h3>
+          <p>Custom fertilization programs tailored to your soil type and grass variety for lush, green results.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💧</div>
+          <h3>Irrigation</h3>
+          <p>Efficient sprinkler system installation, maintenance, and seasonal adjustments to save water.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🍂</div>
+          <h3>Leaf Removal</h3>
+          <p>Full yard cleanups in fall and spring to keep your property looking its best year-round.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌿</div>
+          <h3>Edging & Trimming</h3>
+          <p>Crisp, clean edges along driveways, sidewalks, and garden beds for a polished finish.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🐛</div>
+          <h3>Pest & Weed Control</h3>
+          <p>Safe and effective treatments to eliminate weeds and protect your lawn from damaging pests.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2>The Long View Difference</h2>
+        <p>We don't just mow grass — we build beautiful, healthy lawns for the long term.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-icon">📅</div>
+          <h4>Flexible Scheduling</h4>
+          <p>Weekly, bi-weekly, or one-time visits — we work around your schedule.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">🛡️</div>
+          <h4>Fully Insured</h4>
+          <p>Licensed and fully insured for your peace of mind on every job.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">💰</div>
+          <h4>Transparent Pricing</h4>
+          <p>No hidden fees. Upfront quotes before we start any work.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">⚡</div>
+          <h4>Fast Response</h4>
+          <p>We respond to all inquiries within 24 hours — usually much sooner.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Request a Free Quote</h2>
+          <p>Fill out the form and we'll get back to you with a free, no-obligation quote for your property.</p>
+          <ul class="contact-list">
+            <li>📍 Serving the greater local area</li>
+            <li>⏰ Mon–Sat, 7am – 6pm</li>
+            <li>✅ Free estimates, no commitment</li>
+          </ul>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/mzzplbbw" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="address">Property Address</label>
+            <input type="text" id="address" name="address" placeholder="123 Main St, City, State" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service…</option>
+              <option value="mowing">Lawn Mowing</option>
+              <option value="fertilization">Fertilization</option>
+              <option value="irrigation">Irrigation</option>
+              <option value="leaf-removal">Leaf Removal</option>
+              <option value="edging">Edging & Trimming</option>
+              <option value="pest-weed">Pest & Weed Control</option>
+              <option value="other">Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Notes</label>
+            <textarea id="message" name="message" rows="3" placeholder="Tell us anything else about your lawn or property…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send My Request →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="nav-logo">
+        <span class="logo-icon">🌿</span>
+        <span class="logo-text">Long View <strong>Lawn Care</strong></span>
+      </div>
+      <p class="footer-copy">© 2025 Long View Lawn Care. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
